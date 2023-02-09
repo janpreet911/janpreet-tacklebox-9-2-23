@@ -9,16 +9,17 @@
     color: #fff;
 }
 
-img{
+img {
     max-width: 100%;
 }
-.container-main{
+
+.container-main {
     max-width: 1920px;
     margin: 0 auto;
 }
 
 .container {
-    max-width: 1730px;
+    max-width: 1731px;
     margin: 0 auto;
 }
 
@@ -131,7 +132,7 @@ h1 {
 }
 
 .para-2 {
-   
+
     height: 63px;
     font-size: 30px;
     letter-spacing: 1px;
@@ -192,14 +193,18 @@ h1 {
 }
 
 .rectangle-1-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
 .rectangle-1-menu {
     position: absolute;
-    bottom: 136px;
-    right: 90px;
+    left: 75%;
+    bottom: 165px;
 }
+
 
 .heading-section-4 {
     font-size: 40px;
@@ -333,13 +338,13 @@ td {
 
 tr,
 td {
-   
+
 
     height: 54px;
 }
 
 .table {
-   
+
     margin-top: 54px;
 }
 
@@ -366,7 +371,7 @@ td {
 }
 
 #first-btn {
-   
+
     width: 330px;
     font-weight: 100;
     background-color: #000000;
@@ -454,39 +459,44 @@ h3 {
 }
 
 .rectangle-last-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
 }
 
 .rectangle-last-menu {
     position: absolute;
-    bottom: 85px;
-    left: 92px;
-    
-
+    top: 82px;
+    left: 103px;
 }
 
 .heading-section-8 {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 36px;
+    line-height: 43px;
     font-weight: 400;
 }
 
-.btn-1-section-8 {
-  
 
-    height: 114px;
-    font-size: 20px;
-    background: #000;
-    margin-top: 50px;
-}
 
 .para-section-8 {
-    margin-top: 33px;
+    margin-top: 15px;
     font-size: 24px;
-    line-height: 34px;
+    line-height: 30px;
     font-weight: 100;
 }
 
+.rectangle-last-image-arrow {
+    width: 100px;
+}
+.rect-1-1 img {
+    width: 1154px;
+    height: 730px;
+}
+.rect-2-2 img {
+    width: 576px;
+    height: 730px;
+}
 
 
 
@@ -527,15 +537,17 @@ h4.heading-section-9 {
     margin-right: 284px;
 }
 
-
-.footer-main {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 220px;
-    /* height: 600px; */
+.footer.container{
+    background-color: #24262b;
 }
-
+.footer-main {
+    display: grid;
+    align-items: center;
+    justify-items: baseline;
+    padding: 13px;
+  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 
 ul.footer-col-1 {
@@ -588,385 +600,784 @@ ul.footer-col-4 li a {
 
 
 
-.footer.container {
-    height: 500px;
-    background-color: #24262b;
 
-}
 
 @media screen and (max-width:1750px) {
 
-    .head1{
+    .head1 {
         left: 46px;
     }
-    .rectangle-last-menu{
+
+    .rectangle-last-menu {
         bottom: 20px;
     }
+
     .rectangle-1-menu {
-        bottom: 62px;
+        bottom: 117px;
+        left: 75%;
     }
-    .container{
+    .container {
         width: 95%;
     }
-    nav{
-        margin-right: 320px;
+
+    nav {
+        margin-right: 208px;
     }
-    .para-3{
+
+    .para-3 {
         font-size: 17px;
     }
+
     h2.grid-heading-section-2 {
         font-size: 16px;
     }
-    .container{
+
+    .container {
         width: 94%;
-       }
-       .container-1{
-        width:92% ;
-       }
-       .container-2{
+    }
+
+    .container-1 {
+        width: 92%;
+    }
+
+    .container-2 {
         width: 88%;
-       }
+    }
 
 
 }
-@media screen and (max-width:1540px){
 
-    .head1{
+@media screen and (max-width:1540px) {
+
+    .head1 {
         left: 77px;
     }
 
-   .container{
-    width: 92%;
-   }
-   .container-1{
-    width:90% ;
-   }
-   .container-2{
-    width: 80%;
-   }
-    h1{
-        font-size: 55px;
-       
+    .container {
+        width: 92%;
     }
-    .rectangle-hero{
+
+    .container-1 {
+        width: 90%;
+    }
+
+    .container-2 {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 55px;
+
+    }
+
+    .rectangle-hero {
         padding: 0;
     }
-    .rectangle-hero{
+
+    .rectangle-hero {
         font-size: 47px;
     }
-    .para-2{
+
+    .para-2 {
         font-size: 24px;
     }
-    .para-3{
+
+    .para-3 {
         font-size: 17px;
 
     }
-    #rectangle-heading{
+
+    #rectangle-heading {
         font-size: 19px;
         font-weight: 300;
     }
-   
-    .grid{
+
+    .grid {
         gap: 93px 0px;
 
     }
+
     .grid-item {
         padding: 11px;
     }
+
     .heading-section-4 {
         font-size: 32px;
         font-weight: 300;
     }
+
     .btn-1-section-4 {
         width: 284px;
         height: 74px;
         margin-top: 0;
     }
+
     .heading-section-8 {
         font-size: 34px;
     }
-    .para-section-8{
+
+    .para-section-8 {
         font-size: 20px;
     }
+
     #para-rectangle-3 {
         font-size: 19px;
         font-weight: 300;
     }
-    #first-btn{
+
+    #first-btn {
         width: 300px;
         height: 76px;
         font-size: 17px;
     }
-    #second-btn{
+
+    #second-btn {
         width: 300px;
         height: 76px;
         font-size: 17px;
     }
+
     h4.heading-section-9 {
         font-size: 20px;
         margin-right: 221px;
     }
-    h4{
+
+    h4 {
         font-size: 30px;
     }
-    .para-3{
+
+    .para-3 {
         font-size: 15px;
     }
+
     h2.grid-heading-section-2 {
         font-size: 16px;
+    }
+
+    .btn-1-section-8 {
+        width: 268px;
+        height: 100px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .rectangle-last-image-arrow {
+        width: 100%;
+        max-width: 25%;
+    }
+    .rectangle-hero {
+        padding: 20px;
+    }
+    .heading-2 {
+        font-size: 52px;
+        line-height: 54px;
+        font-weight: 100;
+    }
+    .heading-section-4 {
+        font-size: 36px;
+        line-height: 46px;
     }
 
 }
 
-    
 
 
-@media screen and (max-width:1360px ){
 
-    .para-3{
+@media screen and (max-width:1360px) {
+
+    .para-3 {
         font-size: 15px;
     }
+
     h2.grid-heading-section-2 {
         font-size: 16px;
     }
-    .heading-3{
+
+    .heading-3 {
         font-size: 30px;
     }
+
     .rectangle-3 {
         display: flex;
         flex-direction: column;
         padding: 40px;
     }
+
     .rectangle-1-main {
         display: flex;
         flex-direction: column;
         padding: 40px;
     }
+
     .clients {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 92px;
     }
+
     .clients-1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 92px;
     }
+
     .heading-2 {
-        font-size: 45px;
+        font-size: 41px;
     }
+
     .para-2 {
         font-size: 20px;
     }
+
     #p-circle {
         font-weight: 100;
         font-size: 30px;
-        
+
     }
+
     #para-B2B {
         font-size: 30px;
         line-height: 50px;
         font-weight: 100;
-        
+
     }
-    .container{
+
+    .container {
         width: 88%;
-       }
-       .container-1{
-        width:86% ;
-       }
-       .container-2{
-        width:84%;
-       }
+    }
+
+    .container-1 {
+        width: 86%;
+    }
+
+    .container-2 {
+        width: 84%;
+    }
+
+    .btn-1-section-8 {
+        width: 208px;
+        height: 63px;
+        margin-top: 17px;
+        font-size: 15px;
+    }
+
+    .rectangle-last-menu {
+        bottom: 8px;
+        left: 11px;
+    }
+
+    .rectangle-last-image-arrow {
+        width: 100%;
+        max-width: 23%;
+    }
+
+    .heading-section-8 {
+        font-size: 26px;
+    }
+
+    .para-section-8 {
+        font-size: 18px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    .rectangle-1-menu {
+        bottom: 85px;
+        left: 70%;
+    }
 
 
 }
 
-@media screen and (max-width:1190px){
-    .container{
+@media screen and (max-width:1190px) {
+    .container {
         width: 86%;
-       }
-       .container-1{
-        width:84% ;
-       }
-       .container-2{
-        width:80%;
-       }
-    
+    }
+
+    .container-1 {
+        width: 84%;
+    }
+
+    .container-2 {
+        width: 80%;
+    }
+
     .header-right {
         font-size: 14px;
     }
+
     nav {
-         margin-right: 130px;
+        margin-right: 20px;
         font-size: 14px;
     }
+
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
-        
+
     }
+
     .heading-3 {
         font-size: 22px;
     }
+
     h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
+
     .btn-1-section-4 {
         width: 190px;
         height: 63px;
         margin-top: 0;
         font-size: 14px;
     }
+
     .heading-section-4 {
         font-size: 20px;
         font-weight: 200;
     }
+
     .rectangle-1-menu {
         bottom: 41px;
     }
+
     .para-section-8 {
         font-size: 14px;
         line-height: 24px;
     }
+
     .heading-section-8 {
         font-size: 22px;
         line-height: 26px;
     }
+
     h4.heading-section-9 {
         font-size: 20px;
         margin-right: 194px;
     }
+
     h4 {
         font-size: 22px;
     }
+
     #first-btn {
         width: 230px;
         height: 61px;
         font-size: 13px;
         margin-top: 20px;
     }
+
     #second-btn {
         width: 230px;
         height: 61px;
         font-size: 15px;
         margin-top: 20px;
     }
-   
 
-    
+    .rectangle-last-image-arrow img {
+        width: 70px;
+    }
+
+    .image-rectangle-1 img {
+        width: 70px;
+
+
+    }
+    .footer-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 634px;
+        margin-bottom: 100px;
+    }
+    .rect-1-1 img {
+        width: 1154px;
+        height: 432px;
+    }
+    .rect-2-2 img {
+        width: 576px;
+        height: 432px;
+    }
+    .rectangle-last-menu {
+        left: 66px;
+        top: 70px;
+    }
+    .heading-2 {
+        font-size: 33px;
+    }
+    .para-2 {
+        font-size: 16px;
+    }
+    h4.heading-section-9 {
+        font-size: 18px;
+        margin-right: 159px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+
+
+
+
 }
-@media screen and (max-width:992px){
-    
-    .container{
+
+@media screen and (max-width:992px) {
+
+    .container {
         width: 84%;
-       }
-       .container-1{
-        width:82% ;
-       }
-       .container-2{
-        width:76%;
-       }
-    
-    h4.h4-section-6{
+    }
+
+    .container-1 {
+        width: 82%;
+    }
+
+    .container-2 {
+        width: 76%;
+    }
+
+    h4.h4-section-6 {
         font-size: 30px;
     }
+
     .clients {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 100px;
     }
+
     .clients-1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 100px;
     }
+
     #para-B2B {
         font-size: 22px;
         line-height: 50px;
         font-weight: 100;
     }
+
     #p-circle {
         font-weight: 100;
         font-size: 22px;
     }
-    #branding{
-        font-size: 30px ;
+
+    #branding {
+        font-size: 30px;
     }
+
     .rectangle-1-main {
         display: flex;
         flex-direction: column;
         padding: 30px;
     }
+
     .rectangle-3 {
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
-    .image-rectangle-1 img{
+
+    .image-rectangle-1 img {
         width: 50px;
-        
+
     }
+
     .rectangle-hero {
-        font-size: 47px;
         text-align: center;
-        padding: 20px;
+        padding: 52px;
     }
+
     .para-2 {
         font-size: 15px;
         text-align: center;
         line-height: 30px;
     }
+
     .heading-2 {
-        font-size: 34px;
+        font-size: 22px;
+        font-weight: 300;
     }
+
     h1 {
-        font-size: 34px;
+        font-size: 29px;
     }
-    
+    .rectangle-hero-section.container{
+        padding: 20px;
+    }
+
     .heading-section-4 {
         font-size: 20px;
         font-weight: 200;
         line-height: 27px;
     }
-    .rectangle-last-image-arrow img{
+
+    .rectangle-last-image-arrow img {
         width: 50px;
     }
+
     .rectangle-last-menu {
-        bottom: 33px;
-        left: 50px;
+        top: 6px;
+        left: 10px;
     }
-    .hero-section{
+
+    .hero-section {
         height: 600px;
     }
+
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
+
     .heading-2 {
         font-size: 30px;
     }
+
     .rectangle-1-menu {
         bottom: 64px;
         right: 27px;
     }
-    h4 {
-        font-size: 18px;
+
+
+    .btn-1-section-8 {
+        width: 150px;
+        height: 50px;
+        margin-top: 14px;
+        font-size: 13px;
+    }
+    .rect-1-1 img {
+        width: 580px;
+        height: 355px;
+    }
+    .rect-2-2 img {
+        width: 275px;
+        height: 355px;
+    }
+    .tackle-logo {
+        width: 70px;
+        height: 30px;
+    }
+    .arow-header {
+        width: 21px;
+        height: 30px;
     }
     h4.heading-section-9 {
-        font-size: 18px;
-        margin-right: 127px;
+        font-size: 16px;
+        margin-right: 92px;
     }
-    
+    h4 {
+        font-size: 16px;
+    }
+
 }
-@media screen and (max-width:768px){
-    .heading-2 {
-        font-size: 27px;
+
+@media screen and (max-width:768px) {
+
+    .container {
+        width: 82%;
     }
+
+    .container-1 {
+        width: 87%;
+    }
+
+    .container-2 {
+        width: 72%;
+    }
+
+
     h1 {
         font-size: 29px;
     }
 
+    .header-main {
+        display: block;
+    }
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .para-2 {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .heading-2 {
+        font-size: 24px;
+    }
+
+    p.para-2 br {
+        display: none;
+    }
+
+    .grid br {
+        display: none;
+    }
+
+    .grid-item {
+        margin: 14px;
+    }
+
+    .grid-image-arrow {
+        width: 100%;
+        max-width: 9%;
+    }
+
+    .momentum-image {
+        width: 100%;
+        max-width: 5%;
+    }
+
+   
+
+    .btn-1-section-4 {
+        width: 155px;
+        height: 49px;
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+    .heading-section-4 {
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 22px;
+    }
+
+    .rectangle-1-menu {
+        bottom: 31px;
+        right: 21px;
+    }
+
+    p#p-circle br {
+        display: none;
+    }
+
+    .rectangle-last-menu {
+        bottom: -8px;
+        left: 15px;
+    }
+
+    .heading-section-8 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .para-section-8 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .email {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: fit-content;
+        margin-left: 161px;
+        padding-top: 20px;
+    }
+
+    .subscribe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subscribe-email {
+        display: block;
+    }
+
+    .subscribe-arrow {
+        width: 100%;
+        max-width: 10%;
+    }
+    .rectangle-hero-section.container {
+        padding: 20px;
+      
+       
+    }
+    ul.footer-col-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    ul.footer-col-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    ul.footer-col-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    ul.footer-col-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .footer-main{
+        font-size: 14px;
+    }
+    .rect-1-1 img {
+        width: 429px;
+        height: 272px;
+    }
+    .rect-2-2 img {
+        width: 209px;
+        height: 272px;
+    }
+    .table{
+        font-size: 14px;
+    }
+    .rectangle-hero {
+        text-align: center;
+        padding: 30px;
+    }
+    #second-btn {
+        width: 180px;
+        height: 51px;
+        font-size: 13px;
+        margin-top: 12px;
+    }
+    #first-btn {
+        width: 180px;
+        height: 51px;
+        font-size: 10px;
+        margin-top: 12px;
+    }
+    #rectangle-heading {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+
+    }
+    @media screen  and (max-width:576px){
+        .rectangle-10 img {
+            max-height: 257px;
+            width: 500px;
+        }
+        .rectangle-1-menu {
+            bottom: 22px;
+            left: 164px;
+        }
+        .rectangle-1-image {
+            display: block;
+          
+        }
+        
+    }
     
-}
